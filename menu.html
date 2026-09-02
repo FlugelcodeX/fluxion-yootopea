@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Menu | Yōótōpēa</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <div class="logo-mark">
+            <img src="logo.png" alt="Yōótōpēa logo" />
+          </div>
+          <div class="logo-text">
+            <span>YŌÓTŌPĒA</span>
+            <small>ASIAN DINING</small>
+          </div>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open navigation">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="menu.html" class="active">Menu</a>
+          <a href="locations.html">Locations</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+        </nav>
+
+        <a href="locations.html" class="header-button">FIND US</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="page-hero-content">
+          <p class="eyebrow">YŌÓTŌPĒA</p>
+
+          <h1>
+            Good food.<br />
+            <em>Many moods.</em>
+          </h1>
+
+          <p>
+            Explore our collection of Japanese, Korean, Thai and Asian-inspired
+            favorites.
+          </p>
+        </div>
+      </section>
+
+      <section class="menu-section section">
+        <div class="menu-intro">
+          <p class="eyebrow">THE MENU</p>
+
+          <h2>
+            What are you<br />
+            <em>craving today?</em>
+          </h2>
+        </div>
+
+        <div class="menu-tabs">
+          <button class="menu-tab active" data-category="all">ALL</button>
+
+          <button class="menu-tab" data-category="ramen">
+            RAMEN & NOODLES
+          </button>
+
+          <button class="menu-tab" data-category="rice">RICE BOWLS</button>
+
+          <button class="menu-tab" data-category="sushi">SUSHI</button>
+
+          <button class="menu-tab" data-category="sides">SIDES</button>
+
+          <button class="menu-tab" data-category="drinks">DRINKS</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-item" data-category="ramen">
+            <div class="menu-item-image">
+              <img src="ramen.jpg" alt="Tonkotsu ramen" />
+            </div>
+
+            <div class="menu-item-info">
+              <div>
+                <span>RAMEN</span>
+                <h3>Tonkotsu</h3>
+              </div>
+
+              <strong>₱279</strong>
+            </div>
+
+            <p>Rich and comforting Japanese-style ramen.</p>
+          </article>
+
+          <article class="menu-item" data-category="ramen">
+            <div class="menu-item-image">
+              <img src="laksa.jpg" alt="Laksa" />
+            </div>
+
+            <div class="menu-item-info">
+              <div>
+                <span>NOODLES</span>
+                <h3>Laksa</h3>
+              </div>
+
+              <strong>₱329</strong>
+            </div>
+
+            <p>Aromatic Southeast Asian noodle favorite.</p>
+          </article>
+
+          <article class="menu-item" data-category="rice">
+            <div class="menu-item-image">
+              <img src="karaage.jpg" alt="Chicken karaage rice bowl" />
+            </div>
+
+            <div class="menu-item-info">
+              <div>
+                <span>RICE BOWL</span>
+                <h3>Chicken Karaage</h3>
+              </div>
+
+              <strong>₱189</strong>
+            </div>
+
+            <p>Crispy Japanese fried chicken served with rice.</p>
+          </article>
+
+          <article class="menu-item" data-category="rice">
+            <div class="menu-item-image">
+              <img src="bibimbap.jpg" alt="Bibimbap" />
+            </div>
+
+            <div class="menu-item-info">
+              <div>
+                <span>KOREAN</span>
+                <h3>Bibimbap</h3>
+              </div>
+
+              <strong>₱189</strong>
+            </div>
+
+            <p>Korean mixed rice with colorful toppings.</p>
+          </article>
+
+          <article class="menu-item" data-category="sushi">
+            <div class="menu-item-image">
+              <img src="sushi.jpg" alt="California maki" />
+            </div>
+
+            <div class="menu-item-info">
+              <div>
+                <span>SUSHI</span>
+                <h3>California Maki</h3>
+              </div>
+
+              <strong>₱219</strong>
+            </div>
+
+            <p>A classic roll made for sharing.</p>
+          </article>
+
+          <article class="menu-item" data-category="sides">
+            <div class="menu-item-image">
+              <img src="takoyaki.jpg" alt="Takoyaki" />
+            </div>
+
+            <div class="menu-item-info">
+              <div>
+                <span>SIDE</span>
+                <h3>Takoyaki</h3>
+              </div>
+
+              <strong>₱183</strong>
+            </div>
+
+            <p>Golden Japanese street-food favorite.</p>
+          </article>
+
+          <article class="menu-item" data-category="sides">
+            <div class="menu-item-image">
+              <img src="katsudon.jpg" alt="Pad Thai" />
+            </div>
+
+            <div class="menu-item-info">
+              <div>
+                <span>THAI</span>
+                <h3>Pad Thai</h3>
+              </div>
+
+              <strong>₱259</strong>
+            </div>
+
+            <p>Balanced Thai noodles with a satisfying finish.</p>
+          </article>
+
+          <article class="menu-item" data-category="drinks">
+            <div class="mangao shake.jpg">
+              <img src="drink.jpg" alt="Yōótōpēa drink" />
+            </div>
+
+            <div class="menu-item-info">
+              <div>
+                <span>DRINK</span>
+                <h3>Mango Shake</h3>
+              </div>
+
+              <strong>₱129</strong>
+            </div>
+
+            <p>Refreshing mango drink made for warm days.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="logo.png" alt="Yōótōpēa logo" />
+          </div>
+          <div>
+            <span>YŌÓTŌPĒA</span>
+            <p>Asian dining, made memorable.</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="locations.html">Locations</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Yōótōpēa</span>
+        <span>DESIGNED BY FLUXION STUDIO</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

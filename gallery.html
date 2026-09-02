@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Gallery | Yōótōpēa</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="gallery.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <div class="logo-mark">
+            <img src="logo.png" alt="Yōótōpēa logo" />
+          </div>
+          <div class="logo-text">
+            <span>YŌÓTŌPĒA</span>
+            <small>ASIAN DINING</small>
+          </div>
+        </a>
+
+        <button class="menu-toggle">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="locations.html">Locations</a>
+          <a href="gallery.html" class="active">Gallery</a>
+          <a href="about.html">About</a>
+        </nav>
+
+        <a href="menu.html" class="header-button">VIEW MENU</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="page-hero-content">
+          <p class="eyebrow">THE YŌÓTŌPĒA EXPERIENCE</p>
+
+          <h1>
+            See what's<br />
+            <em>on the table.</em>
+          </h1>
+
+          <p>Food, spaces and little moments from Yōótōpēa.</p>
+        </div>
+      </section>
+
+      <section class="gallery-section section">
+        <div class="gallery-filter">
+          <button class="gallery-filter-btn active" data-filter="all">
+            ALL
+          </button>
+
+          <button class="gallery-filter-btn" data-filter="food">FOOD</button>
+
+          <button class="gallery-filter-btn" data-filter="space">SPACE</button>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-wide" data-type="food">
+            <img src="ramen.jpg" alt="Yōótōpēa ramen" />
+          </figure>
+
+          <figure class="gallery-item" data-type="food">
+            <img src="karaage.jpg" alt="Yōótōpēa karaage" />
+          </figure>
+
+          <figure class="gallery-item" data-type="space">
+            <img src="interior-1.jpg" alt="Yōótōpēa interior" />
+          </figure>
+
+          <figure class="gallery-item" data-type="food">
+            <img src="sushi.jpg" alt="Yōótōpēa sushi" />
+          </figure>
+
+          <figure class="gallery-item gallery-tall" data-type="food">
+            <img src="bibimbap.jpg" alt="Yōótōpēa bibimbap" />
+          </figure>
+
+          <figure class="gallery-item" data-type="space">
+            <img src="interior-2.jpg" alt="Yōótōpēa interior" />
+          </figure>
+
+          <figure class="gallery-item" data-type="food">
+            <img src="takoyaki.jpg" alt="Yōótōpēa takoyaki" />
+          </figure>
+
+          <figure class="gallery-item gallery-wide" data-type="food">
+            <img src="katsudon.jpg" alt="Yōótōpēa Pad Thai" />
+          </figure>
+
+          <figure class="gallery-item" data-type="food">
+            <img src="laksa.jpg" alt="Yōótōpēa Laksa" />
+          </figure>
+
+          <figure class="gallery-item" data-type="space">
+            <img src="exterior.jpg" alt="Yōótōpēa exterior" />
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="logo.png" alt="Yōótōpēa logo" />
+          </div>
+          <div>
+            <span>YŌÓTŌPĒA</span>
+            <p>Asian dining, made memorable.</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="locations.html">Locations</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Yōótōpēa</span>
+        <span>DESIGNED BY FLUXION STUDIO</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
